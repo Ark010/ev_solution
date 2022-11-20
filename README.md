@@ -11,8 +11,6 @@
         cd ev_solution
 # Step 4: Install below dependency libraries using npm cammand as it is used in the application
         npm install axios
-        npm install redux
-        npm install react-redux
 # Step 5: Do the code changes as per the requirements
 
 # Step 6: Run the project with below cammand in develpoment mode:
