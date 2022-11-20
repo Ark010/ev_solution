@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# Prerequsities needed: nodejs must be installed in our system
+# Below steps have been followed to build the application
+##### `Development`:
+# Step 0: Create a github repository where we can push the changes globally
+        git repo: `https://github.com/Ark010/ev_solution`
+# Step 1: Clone the repository in a local folder with below cammand
+        git clone `https://github.com/Ark010/ev_solution`
+# Step 2: Create a react project with below cammand in local git repository created in previous step: 
+        npx create-react-app 'ev_solution'
+# Step 3: Change directory to 'ev_solution'
+        cd ev_solution
+# Step 4: Install below dependency libraries using npm cammand as it is used in the application
+        npm install axios
+        npm install redux
+        npm install react-redux
+# Step 5: Do the code changes as per the requirements
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Step 6: Run the project with below cammand in develpoment mode:
+        npm start (Open [http://localhost:3000](http://localhost:3000) to view it in your browser.)
+# Step 7:Finally, add all the changes to git using below cammands
+        git add .
+        git commit -m "commit comments"
+        git push origin main
 
-## Available Scripts
+### `Deployment`:
 
-In the project directory, you can run:
+# The developed project has been deployed to heroku server
+# Step 0: Run below cammand to builds the app for production to the `build` folder.\
+    `npm run build`
+    It correctly bundles React in production mode and optimizes the build for the best performance.
+# Step1: created a nodejs app on heroku server and it cretaed a git repo as:
+    https://git.heroku.com/ev-solution.git
 
-### `npm start`
+# Step 2: Clone the repository in a local folder with below cammand
+        git clone `https://git.heroku.com/ev-solution.git`
+`
+#Step 3: Copy the developed project in this repo folder
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#Step 4: Finally, add all the changes to heroku server using below cammands
+        git add .
+        git commit -m "commit comments"
+        git push origin master
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Step 5: Run the application with url developed by heroku server   
+        https://ev-solution.herokuapp.com/
