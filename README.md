@@ -24,17 +24,17 @@
 
 # The developed project has been deployed to heroku server
 # Step 0: Run below cammand to builds the app for production to the `build` folder.\
-    `npm run build`
-    It correctly bundles React in production mode and optimizes the build for the best performance.
+        `npm run build`
+        It correctly bundles React in production mode and optimizes the build for the best performance.
 # Step1: created a nodejs app on heroku server and it cretaed a git repo as:
-    https://git.heroku.com/ev-solution.git
+        https://git.heroku.com/ev-solution.git
 
 # Step 2: Clone the repository in a local folder with below cammand
         git clone `https://git.heroku.com/ev-solution.git`
 `
-#Step 3: Copy the developed project in this repo folder
+# Step 3: Copy the developed project in this repo folder
 
-#Step 4: Finally, add all the changes to heroku server using below cammands
+# Step 4: Finally, add all the changes to heroku server using below cammands
         git add .
         git commit -m "commit comments"
         git push origin master
